@@ -1,11 +1,31 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>API Full Stack Project</title>
-  </head>
-  <body>
-    <!-- You code goes here-->
-  </body>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dog Browser</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Dog Explorer</h1>
+
+  <input id="breedInput" placeholder="Enter breed">
+  <button onclick="loadBreed()">Search</button>
+
+  <br>
+
+  <select id="subBreedSelect" onchange="loadImages()">
+    <option value="">Select sub-breed</option>
+  </select>
+
+  <img id="dogImage" src="https://via.placeholder.com/500x300">
+
+  <br>
+
+  <button onclick="prevImage()">Previous</button>
+  <button onclick="nextImage()">Next</button>
+</div>
+
+<script src="index.js"></script>
+</body>
 </html>
