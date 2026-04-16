@@ -1,1 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: yellow;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
 
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+input, select, button {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+  background: black;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background: #333;
+}
+
+img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 15px;
+}
