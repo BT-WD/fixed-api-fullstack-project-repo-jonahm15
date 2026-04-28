@@ -17,17 +17,20 @@
   <option value="">Select sub-breed</option>
 </select>
 
-  <img id="dogImage" src="https://via.placeholder.com/500x300">
-<br>
+  <br>
 
-<button onclick="saveImage()">Save Image</button>
-<button onclick="goToSaved()">View Saved</button>
-  <br>  
+  <select id="subBreedSelect" onchange="loadImages()">
+    <option value="">Select sub-breed</option>
+  </select>
+
+  <img id="dogImage" src="https://via.placeholder.com/500x300">
+
+  <br>
 
   <button onclick="prevImage()">Previous</button>
   <button onclick="nextImage()">Next</button>
 </div>
-<div id="savedContainer" class="saved-grid"></div>
+
 <script src="index.js"></script>
 </body>
 </html>
